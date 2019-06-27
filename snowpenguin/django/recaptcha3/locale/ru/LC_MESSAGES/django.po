@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-27 20:30+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\fields.py:48 .\fields.py:70
+msgid "Connection to reCaptcha server failed"
+msgstr "Соединение с сервером reCaptcha прервано"
+
+#: .\fields.py:58
+#, python-format
+msgid "reCaptcha score is too low. score: %(score)s"
+msgstr "Значение reCaptcha слишком низкое: %(score)s"
+
+#: .\fields.py:75
+msgid "reCaptcha invalid or expired, try again"
+msgstr "Код reCaptcha неверный или устарел. Попробуйте снова."
+
+#: .\fields.py:81
+msgid "reCaptcha response from Google not valid, try again"
+msgstr "Ответ на запрос reCaptcha неверный, попробйте ещё раз."
