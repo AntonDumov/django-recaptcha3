@@ -59,7 +59,7 @@ class ReCaptchaField(forms.CharField):
                     code='score',
                     params={'score': json_response['score']},
                 )
-            return values[0]
+            return values[0], json_response['score']
         else:
             if 'error-codes' in json_response:
                 if 'missing-input-secret' in json_response['error-codes'] or \
